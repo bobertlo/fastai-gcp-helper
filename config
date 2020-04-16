@@ -1,0 +1,8 @@
+export ZONE="us-central1-a"
+
+export IMAGE_FAMILY="pytorch-latest-gpu"
+#export IMAGE_FAMILY="pytorch-latest-cpu" # for non-GPU instances
+
+export INSTANCE_NAME="fastai-1"
+export INSTANCE_TYPE="n1-highmem-8"
+export ACCELERATOR_TYPE="type=nvidia-tesla-p4,count=1"
